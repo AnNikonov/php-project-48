@@ -1,0 +1,30 @@
+{
+    "name": "hexlet/code",
+    "description": "\"Difference Calculator\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/gendiff.php",
+            "vendor/docopt/docopt/src/docopt.php"
+        ],
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AnNikonov",
+            "email": "nikonov.web@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.8"
+    },
+    "require": {
+        "docopt/docopt": "^1.0"
+    },
+    "bin": [
+        "bin/gendiff"
+    ]
+}
